@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+}
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 0px;
+}
+
+.User {
+  color: white;
+}
+
+.Arrow {
+  color: white;
+}
+
+.Homepage {
+  padding-top: 7rem;
+  text-align: center;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.HomePageLittleText {
+  font-size: small;
+  text-align: start;
+}
+
+.HomePageButton {
+  margin-bottom: 1rem;
+}
+
+.ChooseText {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.BandImage {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  height: 250px;
+  width: 300px;
+}
+
+.BandName {
+  font-size: 150%;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ProfileImage {
+  backface-visibility: visible;
+  min-height: 180px;
+  padding: 10px;
+}
+
+.ProfileHeading {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 110%;
+  text-decoration-line: underline;
+}
+
+.ReviewHeading {
+  padding-bottom: 0px;
+  font-weight: bold;
+  font-size: 110%;
+  text-decoration-line: underline;
+}
+
+.LoadMore {
+  padding-bottom: 20px;
+  padding-right: 20px;
+  color: blue;
+  text-decoration-line: underline;
+  justify-content: end;
+}
+
+.ContactRow {
+  text-align: end;
+  padding-right: 10px;
+}
+
+.AccountSelect {
+  margin-bottom: 10px;
+}
+
+.AddReviewButton {
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.EditImage {
+  justify-content: end;
+}
+
+.Plus {
+  size: 30px;
+  margin-bottom: 25px;
+}
+
+.CheckBox {
+  zoom: 1.5;
+}
+
+.Rating {
+  size: 30px;
+  margin: 3px;
+}
+
+.Default {
+  size: 30px;
+  margin-bottom: 10px;
+}
+
+.AddSampleButton {
+  padding: 20px;
+  padding-top: 0px;
+  justify-content: end;
+}
+
+.booked{
+  color: black;
+  
+}
+
+.black{
+  color: black;
+}
+
+.highlightUnavailability {
+  color: blue; 
+}
+
+.highlightUnavailability2 {
+  color: #000000; 
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.NavBar{
+  padding-right: 0px;
+  padding-left: 0px;
+}
