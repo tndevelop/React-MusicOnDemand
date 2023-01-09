@@ -1,0 +1,38 @@
+GET http://localhost:3001/api/videos/1
+
+###
+
+GET http://localhost:3001/api/audios/1
+
+###
+
+GET http://localhost:3001/api/reviews/1
+
+###
+
+GET http://localhost:3001/api/musician/1
+
+###
+
+GET http://localhost:3001/api/availability/2
+
+###
+
+GET http://localhost:3001/api/dateUnavailability/1
+
+###
+
+PUT http://localhost:3001/api/updateMusician/1
+Content-Type: application/json
+
+{"name": "a group name", "genresList": [0,1], "instrumentsList": [0,1,2], "numberMember": 4, "profilePicture": "somegrouppic.png", "phone": "015610", "website": "www.ilovesomegroup.com", "email": "somegroup@somegroup", "facebookProfile": "somegroupfb", "instagramProfile": "somegroupinsta", "twitterProfile": "somegrouptwitter", "youtubeChannel": "somegroupyoutube" }
+
+###
+
+
+POST http://localhost:3001/api/addMusician
+Content-Type: application/json
+
+{"name": "somegroup", "genresList": [0,1], "instrumentsList": [0,1,2], "numberMember": 4, "profilePicture": "somegrouppic.png", "phone": "015610", "website": "www.ilovesomegroup.com", "email": "somegroup@somegroup", "facebookProfile": "somegroupfb", "instagramProfile": "somegroupinsta", "twitterProfile": "somegrouptwitter", "youtubeChannel": "somegroupyoutube" }
+
+###
